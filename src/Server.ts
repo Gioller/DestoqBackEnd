@@ -13,6 +13,6 @@ app.listen(process.env.PORT, () =>
 console.log(`Server is running on ${process.env.PORT}`)
 );
 app.get('/teste', (req:Request, res:Response) => {
-	res.json({message:'desgraça'})
+	res.json({message:''})
 });
 
