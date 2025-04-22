@@ -62,7 +62,7 @@ export class UserController {
 			const getUsers = await User.find({});
 			res.status(200).json(getUsers);
 		} catch(err){
-			res.status(500).json('Erro de cria no server');
+			res.status(500).json('Erro no servidor');
 		}
 	}
 }
